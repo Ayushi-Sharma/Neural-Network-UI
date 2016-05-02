@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" ng-app = "projectApp">
+	<title>Neural Network based Phishing Detection</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="content/css/styles.css">
+	<script type="text/javascript" src="FINAL/lib/angular.min.js"></script>
+	<script src="FINAL/lib/angular-route.min.js"></script>
+	<script src="content/js/app.js"></script>
+	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script type="application/json" src="content/json/attributes.json"></script>
+</head>
+<body>
+	<header ng-include="'header.html'"></header>
+	<div id="main" class="container" ng-controller="viewController">
+		<div class="col-md-offset-2 col-md-8">
+			<div>
+				<form>
+					<button ng-repeat="attribute in attributes" type="button" ng-click=addValue() class="btn btn-container btn-primary btn-lg round node pull-left">{{attribute.text}} | Value = {{attribute.value}}</button>
+					<input type="text" placeholder="Value For {{attribute.text}}">
+				</form>
+			</div>
+			<div ng-submit="on1" ng-controller="resultController">
+			<a href="#/result"><input class="btn submit-btn pull-right node-button" type="submit" value="Show Results"></input></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

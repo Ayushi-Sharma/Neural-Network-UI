@@ -1,0 +1,155 @@
+var attributes = [{
+		"text": "having_IP_Address",
+		"value": "-1,1"
+	},
+
+	{
+		"text": "URL_Length",
+		"value": "-1,0,1"
+	},
+
+	{
+		"text": "Shortining_Service",
+		"value": "-1,1"
+	},
+
+	{
+		"text": "having_At_Symbol",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "double_slash_redirecting",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Prefix_Suffix",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "having_Sub_Domain",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "SSLfinal_State",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "Domain_registeration_length",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Favicon",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "port",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "HTTPS_token",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Request_URL",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "URL_of_Anchor",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "Links_in_tags",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "SFH",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "Submitting_to_email",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Abnormal_URL",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Redirect",
+		"value": "0, 1"
+	},
+
+	{
+		"text": "on_mouseover",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "RightClick",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "popUpWidnow",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Iframe",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "age_of_domain",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "DNSRecord",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "web_traffic",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "Page_Rank",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Google_Index",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Links_pointing_to_page",
+		"value": "-1, 0, 1"
+	},
+
+	{
+		"text": "Statistical_report",
+		"value": "-1, 1"
+	},
+
+	{
+		"text": "Result",
+		"value": "-1, 1"
+	}
+]
